@@ -1,1 +1,1 @@
-[[[GitHub pages](https://gszb.github.io/goit-markup-hw-02/)]]
+[[[GitHub pages](https://gszb.github.io/goit-markup-hw-03/)]]
