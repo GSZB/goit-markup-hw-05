@@ -485,10 +485,10 @@ a {
   border: 1px solid #ffffff;
   background-color: transparent;
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 2;
   letter-spacing: 0.04em;
   padding-left: 16px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
 }
@@ -513,6 +513,13 @@ a {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus {
+  background-color: #404bbf;
+  border: none;
 }
 
 .footer-subscribe-icon {
@@ -692,7 +699,7 @@ a {
 
 .modal-checkbox:checked + .modal-checkbox-label .modal-checkbox-custom {
   background-color: #404bbf;
-  border-color: #404bbf;
+  border: none;
   fill: #f4f4fd;
 }
 
